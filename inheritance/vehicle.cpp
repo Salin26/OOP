@@ -6,7 +6,7 @@ class vehicle
 {
 protected :
     double speed;
-    float wheel;
+    int wheel;
 };
 
 class car : public vehicle
@@ -15,7 +15,7 @@ private:
     int door;
 
 public:
-    car( double s,float w,int d)
+    car( double s,int w,int d)
     {
         speed=s;
         wheel=w;
