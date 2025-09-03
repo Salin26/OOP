@@ -31,5 +31,5 @@ int main()
     student s;
     s.display();
 
-            return 0;
+    return 0;
 }
